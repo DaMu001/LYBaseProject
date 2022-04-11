@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LYBaseProjectHeader.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the  view.
+    
+    UIView *red = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    red.backgroundColor = LYColorHexWithAlpha(@"#e34a45",0.2);
+    red.ly_viewCornerRadius = 20;
+    red.ly_viewRectCornerType = LYKit_ViewRectCornerTypeTopLeft;
+    red.ly_viewBorderColor = UIColor.blueColor;
+    red.ly_viewBorderWidth = 10;
+    [self.view addSubview:red];
 }
 
 
