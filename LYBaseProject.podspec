@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC 2022-03-21 开始制作
                    DESC
 
-  spec.homepage     = "https://github.com/DaMu001/LYBaseProject"
+  spec.homepage     = "https://github.com/damu001/LYBaseProject"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "DaMu001" => "liu993006816@gmail.com" }
+  spec.author             = { "damu001" => "liu993006816@gmail.com" }
   # Or just: spec.author    = "damu-mu"
   # spec.authors            = { "damu-mu" => "damubabo@yahoo.com" }
   # spec.social_media_url   = "https://twitter.com/damu-mu"
@@ -72,7 +72,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/DaMu001/LYBaseProject.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/damu001/LYBaseProject.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
