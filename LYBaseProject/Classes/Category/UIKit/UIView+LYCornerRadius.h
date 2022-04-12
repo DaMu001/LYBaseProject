@@ -1,5 +1,5 @@
 //
-//  UIView+LY_CornerRadius.h
+//  UIView+LYCornerRadius.h
 //  Example
 //
 //  Created by muios on 2022/4/11.
@@ -65,7 +65,7 @@ typedef NS_ENUM(NSInteger, LYKit_ViewRectCornerType) {
     LYKit_ViewRectCornerTypeBottomRightAndTopRightAndBottomLeft,
 };
 
-@interface UIView (LY_CornerRadius)
+@interface UIView (LYCornerRadius)
 
 /**
  设置 view ：圆角，如果要全部设置四个角的圆角，可以直接用这个方法，必须要在设置 frame 之后，注意：如果是 xib，需要要有固定 宽高，要不然 iOS 10 设置无效
@@ -114,4 +114,5 @@ typedef NS_ENUM(NSInteger, LYKit_ViewRectCornerType) {
 
 
 @end
+
 NS_ASSUME_NONNULL_END

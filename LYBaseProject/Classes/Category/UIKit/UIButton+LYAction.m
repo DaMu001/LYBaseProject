@@ -1,19 +1,21 @@
 //
-//  UIButton+LY_Category.m
+//  UIButton+LYCategory.m
 //  Example
 //
 //  Created by muios on 2022/4/12.
 //  Copyright © 2022 babo. All rights reserved.
 //
 
-#import "UIButton+LY_Category.h"
+#import "UIButton+LYAction.h"
 #import <objc/runtime.h>
 
 @interface UIButton ()
+
 @property(nonatomic ,copy) ButtonActionCallBack block;
+
 @end
 
-@implementation UIButton (LY_Category)
+@implementation UIButton (LYAction)
 
 -(void)addCallBackAction:(ButtonActionCallBack)action
         forControlEvents:(UIControlEvents)controlEvents

@@ -1,5 +1,5 @@
 //
-//  UIImageView+LY_Category.h
+//  UIImageView+LYCategory.h
 //  Example
 //
 //  Created by muios on 2022/4/12.
@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^ImageViewActionCallBack)(UIImageView *imageView,UITapGestureRecognizer *tap);
 
-@interface UIImageView (LY_Category)
+@interface UIImageView (LYAction)
 
 /// 添加手势点击事件
 /// @param target self

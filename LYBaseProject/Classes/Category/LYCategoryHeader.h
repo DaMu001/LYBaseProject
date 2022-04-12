@@ -9,10 +9,11 @@
 #ifndef LYCategoryHeader_h
 #define LYCategoryHeader_h
 
-#import "UIColor+LY_Hex.h"
-#import "UIView+LY_CornerRadius.h"
+#import "UIColor+LYHex.h"
+#import "UIView+LYCornerRadius.h"
 #import "NSArray+Sudoku.h"
 #import "NSString+LYCategory.h"
-#import "UIImageView+LY_Category.h"
+#import "UIImageView+LYAction.h"
+#import "UIButton+LYAction.h"
 
 #endif /* LYCategoryHeader_h */

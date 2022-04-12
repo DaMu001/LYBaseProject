@@ -30,7 +30,7 @@ typedef NS_ENUM(NSInteger, GradientChangeDirection) {
     GradientChangeDirectionDownDiagonalLine,
 };
 
-@interface UIColor (LY_Hex)
+@interface UIColor (LYHex)
 
 /// 根据色值返回 UIColor , 如果为空,则为 UIColor.clearColor
 /// @param hexString 色值

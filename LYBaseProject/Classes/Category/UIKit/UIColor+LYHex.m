@@ -6,10 +6,10 @@
 //  Copyright © 2022 babo. All rights reserved.
 //
 
-#import "UIColor+LY_Hex.h"
+#import "UIColor+LYHex.h"
 #import "LYStringMacrocDefine.h"
 
-@implementation UIColor (LY_Hex)
+@implementation UIColor (LYHex)
 
 + (UIColor *)ly_colorFromHexString:(NSString *)hexString
 {

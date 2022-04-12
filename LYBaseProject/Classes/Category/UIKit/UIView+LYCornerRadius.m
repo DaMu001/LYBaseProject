@@ -1,12 +1,12 @@
 //
-//  UIView+LY_CornerRadius.m
+//  UIView+LYCornerRadius.m
 //  Example
 //
 //  Created by muios on 2022/4/11.
 //  Copyright © 2022 babo. All rights reserved.
 //
 
-#import "UIView+LY_CornerRadius.h"
+#import "UIView+LYCornerRadius.h"
 #import <objc/runtime.h>
 
 /*! runtime set */
@@ -18,7 +18,7 @@
 /*! runtime get */
 #define LYKit_Objc_getObj objc_getAssociatedObject(self, _cmd)
 
-@implementation UIView (LY_CornerRadius)
+@implementation UIView (LYCornerRadius)
 
 - (void)ly_view_setViewRectCornerType:(LYKit_ViewRectCornerType)type          viewCornerRadius:(CGFloat)viewCornerRadius {
     self.ly_viewCornerRadius = viewCornerRadius;

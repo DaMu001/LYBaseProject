@@ -1,12 +1,12 @@
 //
-//  UIImageView+LY_Category.m
+//  UIImageView+LYAction.m
 //  Example
 //
 //  Created by muios on 2022/4/12.
 //  Copyright © 2022 babo. All rights reserved.
 //
 
-#import "UIImageView+LY_Category.h"
+#import "UIImageView+LYAction.h"
 #import <objc/runtime.h>
 
 @interface UIImageView ()
@@ -15,7 +15,7 @@
 
 @end
 
-@implementation UIImageView (LY_Category)
+@implementation UIImageView (LYAction)
 
 - (void)addGestureRecognizerTarget:(nullable id)target action:(nullable SEL)action
 {
