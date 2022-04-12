@@ -19,6 +19,14 @@
 		881897672804478B00ED6A8E /* LYDispatchCenterUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 881897642804478B00ED6A8E /* LYDispatchCenterUitil.m */; };
 		88189774280448FC00ED6A8E /* UIColor+LY_Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 88189773280448FC00ED6A8E /* UIColor+LY_Hex.m */; };
 		8818977728044ED600ED6A8E /* UIView+LY_CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 8818977628044ED600ED6A8E /* UIView+LY_CornerRadius.m */; };
+		883D1ACA2805674D0055F3D0 /* NSArray+Sudoku.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1AC92805674D0055F3D0 /* NSArray+Sudoku.m */; };
+		883D1ACD28056BB20055F3D0 /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1ACB28056BB20055F3D0 /* UIDevice+Hardware.m */; };
+		883D1AD028058F7F0055F3D0 /* NSString+LYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1ACF28058F7F0055F3D0 /* NSString+LYCategory.m */; };
+		883D1AD52805A1390055F3D0 /* UIImageView+LY_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1AD42805A1390055F3D0 /* UIImageView+LY_Category.m */; };
+		883D1AD82805A5FC0055F3D0 /* UIButton+LY_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1AD72805A5FC0055F3D0 /* UIButton+LY_Category.m */; };
+		883D1AE02805A9080055F3D0 /* LYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1ADF2805A9080055F3D0 /* LYBaseTableViewCell.m */; };
+		883D1AE32805AA730055F3D0 /* LYBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1AE22805AA730055F3D0 /* LYBaseCollectionViewCell.m */; };
+		883D1AE72805AB440055F3D0 /* LYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1AE62805AB440055F3D0 /* LYBaseView.m */; };
 		8E4D41AC25DF77C700284239 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D41AB25DF77C700284239 /* AppDelegate.m */; };
 		8E4D41AF25DF77C700284239 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D41AE25DF77C700284239 /* SceneDelegate.m */; };
 		8E4D41B225DF77C700284239 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D41B125DF77C700284239 /* ViewController.m */; };
@@ -63,6 +71,23 @@
 		8818977528044ED600ED6A8E /* UIView+LY_CornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LY_CornerRadius.h"; sourceTree = "<group>"; };
 		8818977628044ED600ED6A8E /* UIView+LY_CornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LY_CornerRadius.m"; sourceTree = "<group>"; };
 		88189778280451D300ED6A8E /* LYCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCategoryHeader.h; sourceTree = "<group>"; };
+		883D1AC82805674D0055F3D0 /* NSArray+Sudoku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Sudoku.h"; sourceTree = "<group>"; };
+		883D1AC92805674D0055F3D0 /* NSArray+Sudoku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Sudoku.m"; sourceTree = "<group>"; };
+		883D1ACB28056BB20055F3D0 /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		883D1ACC28056BB20055F3D0 /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		883D1ACE28058F7F0055F3D0 /* NSString+LYCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LYCategory.h"; sourceTree = "<group>"; };
+		883D1ACF28058F7F0055F3D0 /* NSString+LYCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYCategory.m"; sourceTree = "<group>"; };
+		883D1AD32805A1390055F3D0 /* UIImageView+LY_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LY_Category.h"; sourceTree = "<group>"; };
+		883D1AD42805A1390055F3D0 /* UIImageView+LY_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LY_Category.m"; sourceTree = "<group>"; };
+		883D1AD62805A5FC0055F3D0 /* UIButton+LY_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LY_Category.h"; sourceTree = "<group>"; };
+		883D1AD72805A5FC0055F3D0 /* UIButton+LY_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LY_Category.m"; sourceTree = "<group>"; };
+		883D1ADE2805A9080055F3D0 /* LYBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseTableViewCell.h; sourceTree = "<group>"; };
+		883D1ADF2805A9080055F3D0 /* LYBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseTableViewCell.m; sourceTree = "<group>"; };
+		883D1AE12805AA730055F3D0 /* LYBaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		883D1AE22805AA730055F3D0 /* LYBaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		883D1AE42805AB1F0055F3D0 /* LYBaseUIHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseUIHeader.h; sourceTree = "<group>"; };
+		883D1AE52805AB440055F3D0 /* LYBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseView.h; sourceTree = "<group>"; };
+		883D1AE62805AB440055F3D0 /* LYBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseView.m; sourceTree = "<group>"; };
 		8E4D41A725DF77C700284239 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4D41AA25DF77C700284239 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E4D41AB25DF77C700284239 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				8818973D2804448D00ED6A8E /* LYBaseProjectHeader.h */,
+				883D1ADC2805A8F30055F3D0 /* BaseUI */,
 				881897412804451600ED6A8E /* ToolBox */,
 				88189740280444E800ED6A8E /* Category */,
 				8818973E2804449F00ED6A8E /* NetManager */,
@@ -136,10 +162,12 @@
 			isa = PBXGroup;
 			children = (
 				88189778280451D300ED6A8E /* LYCategoryHeader.h */,
-				88189772280448FC00ED6A8E /* UIColor+LY_Hex.h */,
-				88189773280448FC00ED6A8E /* UIColor+LY_Hex.m */,
-				8818977528044ED600ED6A8E /* UIView+LY_CornerRadius.h */,
-				8818977628044ED600ED6A8E /* UIView+LY_CornerRadius.m */,
+				883D1AD12805A10C0055F3D0 /* NSString */,
+				883D1AD22805A10C0055F3D0 /* UIKit */,
+				883D1AC82805674D0055F3D0 /* NSArray+Sudoku.h */,
+				883D1AC92805674D0055F3D0 /* NSArray+Sudoku.m */,
+				883D1ACC28056BB20055F3D0 /* UIDevice+Hardware.h */,
+				883D1ACB28056BB20055F3D0 /* UIDevice+Hardware.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -183,6 +211,52 @@
 				881897642804478B00ED6A8E /* LYDispatchCenterUitil.m */,
 			);
 			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		883D1AD12805A10C0055F3D0 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				883D1ACE28058F7F0055F3D0 /* NSString+LYCategory.h */,
+				883D1ACF28058F7F0055F3D0 /* NSString+LYCategory.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		883D1AD22805A10C0055F3D0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				88189772280448FC00ED6A8E /* UIColor+LY_Hex.h */,
+				88189773280448FC00ED6A8E /* UIColor+LY_Hex.m */,
+				8818977528044ED600ED6A8E /* UIView+LY_CornerRadius.h */,
+				8818977628044ED600ED6A8E /* UIView+LY_CornerRadius.m */,
+				883D1AD32805A1390055F3D0 /* UIImageView+LY_Category.h */,
+				883D1AD42805A1390055F3D0 /* UIImageView+LY_Category.m */,
+				883D1AD62805A5FC0055F3D0 /* UIButton+LY_Category.h */,
+				883D1AD72805A5FC0055F3D0 /* UIButton+LY_Category.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		883D1ADC2805A8F30055F3D0 /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				883D1AE42805AB1F0055F3D0 /* LYBaseUIHeader.h */,
+				883D1ADD2805A8F30055F3D0 /* Cell */,
+			);
+			path = BaseUI;
+			sourceTree = "<group>";
+		};
+		883D1ADD2805A8F30055F3D0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				883D1AE52805AB440055F3D0 /* LYBaseView.h */,
+				883D1AE62805AB440055F3D0 /* LYBaseView.m */,
+				883D1ADE2805A9080055F3D0 /* LYBaseTableViewCell.h */,
+				883D1ADF2805A9080055F3D0 /* LYBaseTableViewCell.m */,
+				883D1AE12805AA730055F3D0 /* LYBaseCollectionViewCell.h */,
+				883D1AE22805AA730055F3D0 /* LYBaseCollectionViewCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		8E4D419E25DF77C700284239 = {
@@ -354,19 +428,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E4D41B225DF77C700284239 /* ViewController.m in Sources */,
+				883D1AD52805A1390055F3D0 /* UIImageView+LY_Category.m in Sources */,
+				883D1AE72805AB440055F3D0 /* LYBaseView.m in Sources */,
 				8E4D41AC25DF77C700284239 /* AppDelegate.m in Sources */,
 				881897572804457100ED6A8E /* LYJsonNetManager.m in Sources */,
+				883D1ACA2805674D0055F3D0 /* NSArray+Sudoku.m in Sources */,
 				8818977728044ED600ED6A8E /* UIView+LY_CornerRadius.m in Sources */,
 				881897562804457100ED6A8E /* LYProtobufNetManager.m in Sources */,
 				881897522804457100ED6A8E /* LYDataEntity.m in Sources */,
 				881897662804478B00ED6A8E /* LYStringUitil.m in Sources */,
+				883D1AE32805AA730055F3D0 /* LYBaseCollectionViewCell.m in Sources */,
 				8E4D41BD25DF77CA00284239 /* main.m in Sources */,
+				883D1ACD28056BB20055F3D0 /* UIDevice+Hardware.m in Sources */,
 				881897532804457100ED6A8E /* LYHTTPRequestSerializer.m in Sources */,
+				883D1AD82805A5FC0055F3D0 /* UIButton+LY_Category.m in Sources */,
 				88189774280448FC00ED6A8E /* UIColor+LY_Hex.m in Sources */,
 				881897652804478B00ED6A8E /* LYQuickCacheUitil.m in Sources */,
 				8E4D41AF25DF77C700284239 /* SceneDelegate.m in Sources */,
 				881897542804457100ED6A8E /* LYFormNetManager.m in Sources */,
 				881897672804478B00ED6A8E /* LYDispatchCenterUitil.m in Sources */,
+				883D1AE02805A9080055F3D0 /* LYBaseTableViewCell.m in Sources */,
+				883D1AD028058F7F0055F3D0 /* NSString+LYCategory.m in Sources */,
 				881897582804457100ED6A8E /* LYHTTPResponseSerializer.m in Sources */,
 				881897552804457100ED6A8E /* LYBaseNetManager.m in Sources */,
 			);

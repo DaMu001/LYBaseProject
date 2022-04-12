@@ -14,21 +14,41 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.3.0)
+  - MJRefresh (3.2.0)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0.1)
+  - lottie-ios (= 2.5.3)
+  - Masonry (= 1.1.0)
+  - MBProgressHUD (= 1.1.0)
+  - MJExtension (= 3.3.0)
+  - MJRefresh (= 3.2.0)
   - YYCache (~> 1.0.4)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
     - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 2af5812edcbdf3a714ae86b0ef30b3f6dd932040
+PODFILE CHECKSUM: e202c65830ef45c78390d633a61325728cb2b6f3
 
 COCOAPODS: 1.10.1

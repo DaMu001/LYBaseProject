@@ -126,4 +126,17 @@
 
 /// 字典是否为 nil
 + (BOOL)dictIsNULL:(id)dict;
+
+/// 替换字符串内容
+/// @param originalStr 原始字符串
+/// @param character 需要替换的内容
+/// @param replacement 替换的内容
++ (NSString *)replaceWithOriginal:(NSString *)originalStr waitOldStr:(NSString *)character withNewStr:(NSString *)replacement;
+
+/// 使用正则替换字符串内容
+/// @param searchStr 原始字符串
+/// @param regExpStr 正则表达式
+/// @param replacement 替换的内容
++ (NSString *)replaceWithRegexp:(NSString *)searchStr waitOldStr:(NSString *)regExpStr withNewStr:(NSString *)replacement;
+
 @end

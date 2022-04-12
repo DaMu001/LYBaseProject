@@ -847,6 +847,37 @@ done:
     return NO;
 }
 
+
++ (NSString *)replaceWithOriginal:(NSString *)originalStr
+                   waitOldStr:(NSString *)character
+                   withNewStr:(NSString *)replacement
+{
+    if (LYStringIsNull(originalStr)) {
+        return @"";
+    }
+    return [originalStr stringByReplacingOccurrencesOfString:character withString:replacement];
+}
+
++ (NSString *)replaceWithRegexp:(NSString *)searchStr waitOldStr:(NSString *)regExpStr withNewStr:(NSString *)replacement
+{
+    if (LYStringIsNull(searchStr) ||
+        LYStringIsNull(regExpStr)) {
+        return @"";
+    }
+    // 创建 NSRegularExpression 对象,匹配 正则表达式
+    NSRegularExpression *regExp = [[NSRegularExpression alloc] initWithPattern:regExpStr
+                                                                           options:NSRegularExpressionCaseInsensitive
+                                                                             error:nil];
+    NSString *resultStr = searchStr;
+    // 替换匹配的字符串为 searchStr
+    resultStr = [regExp stringByReplacingMatchesInString:searchStr
+                                                     options:NSMatchingReportProgress
+                                                       range:NSMakeRange(0, searchStr.length)
+                                                withTemplate:replacement];
+    
+    return resultStr;
+}
+
 #pragma clang diagnostic pop
 @end
 

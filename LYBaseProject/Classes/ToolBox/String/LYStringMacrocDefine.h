@@ -210,3 +210,9 @@
 #define LYGetMD5ToPath(filePath) [LYStringUitil getFileMD5WithPath:filePath]
 /// 判断字典是否为空
 #define LYDictIsNull(dict) [LYStringUitil dictIsNULL:dict]
+
+/// 替换指定字符串
+#define LYStringReplaceWithOriginal(ori,oldStr,replacement) [LYStringUitil replaceWithOriginal:ori waitOldStr:oldStr withNewStr:replacement]
+
+/// 使用正则替换指定字符串
+#define LYStringReplaceWithRegexp(ori,regStr,replacement) [LYStringUitil replaceWithRegexp:ori waitOldStr:regStr withNewStr:replacement]

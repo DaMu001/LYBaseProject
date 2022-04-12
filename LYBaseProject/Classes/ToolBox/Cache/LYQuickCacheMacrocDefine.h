@@ -144,12 +144,12 @@
 /**
  *  YYCahe 保存键值对 keyObj,valueObj
  */
-#define LYYYCache(keyObj,valueObj) [LYQuickCacheUitil YYCahe_setObject:valueObj forKey:keyObj]
+#define LYSaveValueYYCache(keyObj,valueObj) [LYQuickCacheUitil YYCahe_setObject:valueObj forKey:keyObj]
 /**
  *  YYCahe 删除键keyObj对应的值
  */
-#define LYYYCahceRemove(keyObj) [LYQuickCacheUitil YYCahe_removeObjectForKey:keyObj]
+#define LYRemoveValueYYCahce(keyObj) [LYQuickCacheUitil YYCahe_removeObjectForKey:keyObj]
 /**
  *  YYCahe 获取键keyObj对应的值
  */
-#define LYYYCaheGetValue(keyObj) [LYQuickCacheUitil YYCahe_objectForKey:keyObj]
+#define LYGetValueYYCahe(keyObj) [LYQuickCacheUitil YYCahe_objectForKey:keyObj]
