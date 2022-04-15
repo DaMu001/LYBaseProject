@@ -67,8 +67,14 @@
         make.height.mas_equalTo(100);
     }];
     
-//    red.ly_viewBorderColor = UIColor.blueColor;
-//    red.ly_viewBorderWidth = 10;
+    CGFloat t1 = LYSafeDistanceTop();
+    CGFloat t2 = LYSafeDistanceBottom();
+    CGFloat t3 = LYStatusBarHeight();
+    CGFloat t4 = LYNavigationFullHeight();
+    CGFloat t5 = LYTabBarFullHeight();
+
+    
+    NSLog(@"");
 }
 
 

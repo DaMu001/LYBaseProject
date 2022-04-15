@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 快速创建 可重用的cell
 /// @param tableView 父视图
 /// @param indexPath 位置
-+ (instancetype _Nullable)ly_cellWith:(UITableView *_Nullable)tableView forIndexPath:(NSIndexPath *_Nonnull)indexPath;
++ (instancetype _Nullable)ly_tableviewCellWith:(UITableView *_Nullable)tableView forIndexPath:(NSIndexPath *_Nonnull)indexPath;
 
 /**
  设置cell 样式 背景色一类的处理

@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 初始化方式
 /// @param collectionView 当前view
 /// @param indexPath 当前位置
-+ (instancetype _Nullable)ly_cellWith:(UICollectionView *_Nullable)collectionView forIndexPath:(NSIndexPath *_Nonnull)indexPath;
++ (instancetype _Nullable)ly_collectionCellWith:(UICollectionView *_Nullable)collectionView forIndexPath:(NSIndexPath *_Nonnull)indexPath;
 
 /**
  设置cell 样式 背景色一类的处理

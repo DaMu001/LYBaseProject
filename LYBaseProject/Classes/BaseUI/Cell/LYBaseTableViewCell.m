@@ -20,7 +20,7 @@
 
 @implementation LYBaseTableViewCell
 
-+ (instancetype _Nullable)ly_cellWith:(UITableView *_Nullable)tableView forIndexPath:(NSIndexPath *_Nonnull)indexPath
++ (instancetype _Nullable)ly_tableviewCellWith:(UITableView *_Nullable)tableView forIndexPath:(NSIndexPath *_Nonnull)indexPath
 {
     NSString *tmpReuseIdentifier = [self ly_identifier];
     LYBaseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tmpReuseIdentifier forIndexPath:indexPath];

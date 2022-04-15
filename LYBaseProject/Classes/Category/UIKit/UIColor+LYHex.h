@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 #define LYColorHexWithAlpha(hexString,value) [UIColor ly_colorFromHexString:hexString alpha:value]
 // 随机色
 #define LYRandomColor [UIColor ly_randomColor]
-
+#define LYRGBCOLOR(r, g, b)       [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define LYRGBACOLOR(r, g, b, a)   [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 /**
  渐变方式
  

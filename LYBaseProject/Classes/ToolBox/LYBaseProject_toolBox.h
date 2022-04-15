@@ -12,5 +12,6 @@
 #import "LYQuickCacheMacrocDefine.h"
 #import "LYDispatchMacrocDefine.h"
 #import "LYStringMacrocDefine.h"
+#import "LYAdapterTool.h"
 
 #endif /* LYBaseProject_toolBox_h */

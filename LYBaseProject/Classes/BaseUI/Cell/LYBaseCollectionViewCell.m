@@ -20,7 +20,7 @@
 
 @implementation LYBaseCollectionViewCell
 
-+ (instancetype _Nullable)ly_cellWith:(UICollectionView *_Nullable)collectionView forIndexPath:(NSIndexPath *_Nonnull)indexPath
++ (instancetype _Nullable)ly_collectionCellWith:(UICollectionView *_Nullable)collectionView forIndexPath:(NSIndexPath *_Nonnull)indexPath
 {
     NSString *tmpReuseIdentifier = [self ly_identifier];
     LYBaseCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:tmpReuseIdentifier forIndexPath:indexPath];

@@ -27,6 +27,10 @@
 		883D1AE02805A9080055F3D0 /* LYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1ADF2805A9080055F3D0 /* LYBaseTableViewCell.m */; };
 		883D1AE32805AA730055F3D0 /* LYBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1AE22805AA730055F3D0 /* LYBaseCollectionViewCell.m */; };
 		883D1AE72805AB440055F3D0 /* LYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D1AE62805AB440055F3D0 /* LYBaseView.m */; };
+		88F2085D2807ECDF00CE5CE4 /* LYBaseShowFullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2085C2807ECDF00CE5CE4 /* LYBaseShowFullView.m */; };
+		88F208602807F9BB00CE5CE4 /* LYBaseCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2085F2807F9BB00CE5CE4 /* LYBaseCollectionReusableView.m */; };
+		88F208632807FA6800CE5CE4 /* LYBaseVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F208622807FA6800CE5CE4 /* LYBaseVideoViewController.m */; };
+		88F208662807FC7100CE5CE4 /* LYBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F208652807FC7100CE5CE4 /* LYBaseTextField.m */; };
 		8E4D41AC25DF77C700284239 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D41AB25DF77C700284239 /* AppDelegate.m */; };
 		8E4D41AF25DF77C700284239 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D41AE25DF77C700284239 /* SceneDelegate.m */; };
 		8E4D41B225DF77C700284239 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D41B125DF77C700284239 /* ViewController.m */; };
@@ -88,6 +92,15 @@
 		883D1AE42805AB1F0055F3D0 /* LYBaseUIHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseUIHeader.h; sourceTree = "<group>"; };
 		883D1AE52805AB440055F3D0 /* LYBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseView.h; sourceTree = "<group>"; };
 		883D1AE62805AB440055F3D0 /* LYBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseView.m; sourceTree = "<group>"; };
+		88F2085B2807ECDF00CE5CE4 /* LYBaseShowFullView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseShowFullView.h; sourceTree = "<group>"; };
+		88F2085C2807ECDF00CE5CE4 /* LYBaseShowFullView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseShowFullView.m; sourceTree = "<group>"; };
+		88F2085E2807F9BB00CE5CE4 /* LYBaseCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseCollectionReusableView.h; sourceTree = "<group>"; };
+		88F2085F2807F9BB00CE5CE4 /* LYBaseCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseCollectionReusableView.m; sourceTree = "<group>"; };
+		88F208612807FA6800CE5CE4 /* LYBaseVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseVideoViewController.h; sourceTree = "<group>"; };
+		88F208622807FA6800CE5CE4 /* LYBaseVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseVideoViewController.m; sourceTree = "<group>"; };
+		88F208642807FC7100CE5CE4 /* LYBaseTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseTextField.h; sourceTree = "<group>"; };
+		88F208652807FC7100CE5CE4 /* LYBaseTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseTextField.m; sourceTree = "<group>"; };
+		88F208672807FD6E00CE5CE4 /* LYBaseMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseMacros.h; sourceTree = "<group>"; };
 		8E4D41A725DF77C700284239 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4D41AA25DF77C700284239 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E4D41AB25DF77C700284239 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				8818973D2804448D00ED6A8E /* LYBaseProjectHeader.h */,
+				88F208672807FD6E00CE5CE4 /* LYBaseMacros.h */,
 				883D1ADC2805A8F30055F3D0 /* BaseUI */,
 				881897412804451600ED6A8E /* ToolBox */,
 				88189740280444E800ED6A8E /* Category */,
@@ -241,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				883D1AE42805AB1F0055F3D0 /* LYBaseUIHeader.h */,
+				88F2085A2807ECC800CE5CE4 /* View */,
 				883D1ADD2805A8F30055F3D0 /* Cell */,
 			);
 			path = BaseUI;
@@ -249,14 +264,29 @@
 		883D1ADD2805A8F30055F3D0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				883D1AE52805AB440055F3D0 /* LYBaseView.h */,
-				883D1AE62805AB440055F3D0 /* LYBaseView.m */,
 				883D1ADE2805A9080055F3D0 /* LYBaseTableViewCell.h */,
 				883D1ADF2805A9080055F3D0 /* LYBaseTableViewCell.m */,
 				883D1AE12805AA730055F3D0 /* LYBaseCollectionViewCell.h */,
 				883D1AE22805AA730055F3D0 /* LYBaseCollectionViewCell.m */,
+				88F2085E2807F9BB00CE5CE4 /* LYBaseCollectionReusableView.h */,
+				88F2085F2807F9BB00CE5CE4 /* LYBaseCollectionReusableView.m */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		88F2085A2807ECC800CE5CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				883D1AE52805AB440055F3D0 /* LYBaseView.h */,
+				883D1AE62805AB440055F3D0 /* LYBaseView.m */,
+				88F2085B2807ECDF00CE5CE4 /* LYBaseShowFullView.h */,
+				88F2085C2807ECDF00CE5CE4 /* LYBaseShowFullView.m */,
+				88F208612807FA6800CE5CE4 /* LYBaseVideoViewController.h */,
+				88F208622807FA6800CE5CE4 /* LYBaseVideoViewController.m */,
+				88F208642807FC7100CE5CE4 /* LYBaseTextField.h */,
+				88F208652807FC7100CE5CE4 /* LYBaseTextField.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		8E4D419E25DF77C700284239 = {
@@ -434,6 +464,7 @@
 				881897572804457100ED6A8E /* LYJsonNetManager.m in Sources */,
 				883D1ACA2805674D0055F3D0 /* NSArray+Sudoku.m in Sources */,
 				8818977728044ED600ED6A8E /* UIView+LYCornerRadius.m in Sources */,
+				88F208602807F9BB00CE5CE4 /* LYBaseCollectionReusableView.m in Sources */,
 				881897562804457100ED6A8E /* LYProtobufNetManager.m in Sources */,
 				881897522804457100ED6A8E /* LYDataEntity.m in Sources */,
 				881897662804478B00ED6A8E /* LYStringUitil.m in Sources */,
@@ -443,12 +474,15 @@
 				881897532804457100ED6A8E /* LYHTTPRequestSerializer.m in Sources */,
 				883D1AD82805A5FC0055F3D0 /* UIButton+LYAction.m in Sources */,
 				88189774280448FC00ED6A8E /* UIColor+LYHex.m in Sources */,
+				88F2085D2807ECDF00CE5CE4 /* LYBaseShowFullView.m in Sources */,
 				881897652804478B00ED6A8E /* LYQuickCacheUitil.m in Sources */,
+				88F208632807FA6800CE5CE4 /* LYBaseVideoViewController.m in Sources */,
 				8E4D41AF25DF77C700284239 /* SceneDelegate.m in Sources */,
 				881897542804457100ED6A8E /* LYFormNetManager.m in Sources */,
 				881897672804478B00ED6A8E /* LYDispatchCenterUitil.m in Sources */,
 				883D1AE02805A9080055F3D0 /* LYBaseTableViewCell.m in Sources */,
 				883D1AD028058F7F0055F3D0 /* NSString+LYCategory.m in Sources */,
+				88F208662807FC7100CE5CE4 /* LYBaseTextField.m in Sources */,
 				881897582804457100ED6A8E /* LYHTTPResponseSerializer.m in Sources */,
 				881897552804457100ED6A8E /* LYBaseNetManager.m in Sources */,
 			);

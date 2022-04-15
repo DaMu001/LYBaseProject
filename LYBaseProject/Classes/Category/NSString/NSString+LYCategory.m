@@ -14,6 +14,8 @@
 #define EmojiCodeToSymbol(c) ((((0x808080F0 | (c & 0x3F000) >> 4) | (c & 0xFC0) << 10) | (c & 0x1C0000) << 18) | (c & 0x3F) << 24)
 
 @implementation NSString (LYCategory)
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 
 /** 银行卡字符插入空格 */
 - (NSString *)bankStrInsertSpace {
@@ -723,7 +725,7 @@ static NSDateFormatter *YYYYMMddDot;
     return format_time;
 }
 
-
+#pragma clang diagnostic pop
 @end
 
 @implementation NSDictionary (LYCategory)

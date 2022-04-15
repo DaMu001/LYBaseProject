@@ -9,8 +9,8 @@
 #ifndef LYBaseProjectHeader_h
 #define LYBaseProjectHeader_h
 
+#import "LYBaseMacros.h"
 #import "LYNetManagerHeader.h"
-#import "LYBaseProject_toolBox.h"
 #import "LYCategoryHeader.h"
 
 // 第三方库
@@ -21,5 +21,4 @@
 #import "MJRefresh.h"
 
 #endif /* LYBaseProjectHeader_h */
-
 

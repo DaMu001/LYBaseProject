@@ -119,12 +119,6 @@
 /** 验证邮箱是否合法 */
 - (BOOL)validateEmail;
 
-/** 验证賬號是否合法 */
-- (BOOL)validateAccount;
-
-/** 验证密碼是否合法 */
-- (BOOL)validatePassword;
-
 /** 验证QQ是否合法 */
 - (BOOL)validateQQ;
 
